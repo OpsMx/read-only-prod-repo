@@ -1,2 +1,2 @@
-# read-only-prod-repo
-ISD Argo Prod
+# read-write-qa-repo
+ISD Argo QA
