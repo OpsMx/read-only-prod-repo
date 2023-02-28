@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: opsmx-demo.canis.isd.opsmx.org
+  - host: opsmx-demo-readonly.canis.isd.opsmx.org
     http:
       paths:
       - path: /
