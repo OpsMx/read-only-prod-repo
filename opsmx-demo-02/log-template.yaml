@@ -9,7 +9,7 @@ data:
     "monitoringProvider": "ELASTICSEARCH",
     "scoringAlgorithm": "Canary",
     "accountName": "opsmx-elastic",
-    "index": "argo-sampleappro-*",
+    "index": "argo-sampleapp-*",
     "namespace": null,
     "regExFilter": false,
     "regExResponseKey": "",
