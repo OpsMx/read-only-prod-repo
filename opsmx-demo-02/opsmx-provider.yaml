@@ -11,8 +11,8 @@ data:
     serviceList:
     - metricTemplateName: "metrictemplate"
       metricScopeVariables: "${namespace_key},${pod_key},${app_name}"
-      baselineMetricScope: "argo-sampleapp,.*{{env.STABLE_POD_HASH}}.*,opsmx-demo"
-      canaryMetricScope: "argo-sampleapp,.*{{env.LATEST_POD_HASH}}.*,opsmx-demo"
+      baselineMetricScope: "argo-sampleappro,.*{{env.STABLE_POD_HASH}}.*,opsmx-demo"
+      canaryMetricScope: "argo-sampleappro,.*{{env.LATEST_POD_HASH}}.*,opsmx-demo"
       logScopeVariables: "kubernetes.pod_name"
       baselineLogScope: ".*{{env.STABLE_POD_HASH}}.*"
       canaryLogScope: ".*{{env.LATEST_POD_HASH}}.*"
