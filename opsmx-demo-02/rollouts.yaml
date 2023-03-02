@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: opsmx-demo
 spec:
-  replicas: 1
+  replicas: 6
   revisionHistoryLimit: 2
   selector:
     matchLabels:
