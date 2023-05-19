@@ -66,11 +66,6 @@ data:
       "type": "default"
     },
     {
-      "string": "FATAL",
-      "topic": "CRITICAL",
-      "type": "default"
-    },
-    {
       "string": "SEVERE",
       "topic": "CRITICAL",
       "type": "default"
